@@ -1,0 +1,12 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "resolveJsonModule": false, // should be true but this currently breaks ts-loader
+    "sourceMap": false,
+    "target": "es6"
+  }
+}
